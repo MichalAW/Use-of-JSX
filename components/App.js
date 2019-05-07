@@ -35,13 +35,5 @@ var App = React.createClass({
                 <Contacts items={contacts}/>
             </div>
         );
-    //     return (
-    //         React.createElement('div', {className: 'app'},
-    //         React.createElement('h1', {}, 'App'),
-    //             React.createElement(ContactForm, {contact: contactForm}),
-    //             React.createElement('h1', {}, 'Contacts'),
-    //             React.createElement(Contacts, {items: contacts}, {})
-    //         )
-    //     );
-    // }
+    }
 });
