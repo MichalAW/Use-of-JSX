@@ -12,7 +12,7 @@ var ContactForm = React.createClass({
                         type='text' 
                         placeholder='Name' 
                         id='inputYourName'
-                        required='' 
+                        required 
                         value={this.props.contact.firstName}
                     />
                 </label>
@@ -21,7 +21,8 @@ var ContactForm = React.createClass({
                     <input 
                         type='text' 
                         placeholder='Surname' 
-                        id='inputYourSurname' required=''
+                        id='inputYourSurname' 
+                        required
                         value={this.props.contact.lastName}
                     />
                 </label>
@@ -31,7 +32,7 @@ var ContactForm = React.createClass({
                         type='email' 
                         placeholder='Email' 
                         id='inputYourEmail' 
-                        required='' 
+                        required
                         value={this.props.contact.email}
                     />
                 </label>
