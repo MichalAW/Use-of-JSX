@@ -8,7 +8,7 @@ var ContactForm = React.createClass({
             <form className='contactForm'>
                 <label
                     htmlFor='inputYourName'
-                />
+                />Name
                 <input 
                     type='text' 
                     placeholder='Name' 
@@ -18,7 +18,7 @@ var ContactForm = React.createClass({
                 />
                 <label
                     htmlFor='inputYourSurname'
-                />
+                />Surname
                 <input 
                     type='text' 
                     placeholder='Surname' 
@@ -27,7 +27,7 @@ var ContactForm = React.createClass({
                 />
                 <label
                     htmlFor='inputYourEmail'
-                />
+                />Email
                 <input 
                     type='email' 
                     placeholder='Email' 

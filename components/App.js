@@ -31,7 +31,7 @@ var App = React.createClass({
             <div className='app'>
                 <h1>App</h1>
                 <ContactForm contact={contactForm}/>
-                <h1>Contacts</h1>
+                <h2>Contacts</h2>
                 <Contacts items={contacts}/>
             </div>
         );
